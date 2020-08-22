@@ -5,7 +5,7 @@ const xObject = JSON.parse(x)
 const hashMap = xObject || [{
         logo: 'J',
         logoType: 'text',
-        url: 'https://juejin.im/',
+        url: 'https://juejin.im',
         color:'#ff99cc'
     },
     {

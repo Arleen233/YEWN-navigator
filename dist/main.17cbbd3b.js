@@ -123,7 +123,7 @@ var xObject = JSON.parse(x);
 var hashMap = xObject || [{
   logo: 'J',
   logoType: 'text',
-  url: 'https://juejin.im/',
+  url: 'https://juejin.im',
   color: '#ff99cc'
 }, {
   logo: 'B',
@@ -196,4 +196,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.be0c3c1d.js.map
+//# sourceMappingURL=main.17cbbd3b.js.map
