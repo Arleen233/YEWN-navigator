@@ -178,6 +178,7 @@ $(".addButton").on('click', function () {
     url: "".concat(url),
     color: "".concat(colorArr[randomColor()])
   });
+  localStorage.setItem('x', JSON.stringify(hashMap));
   render();
 });
 
@@ -196,4 +197,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.17cbbd3b.js.map
+//# sourceMappingURL=main.dee0bde5.js.map

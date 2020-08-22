@@ -76,6 +76,7 @@ $(".addButton")
             url: `${url}`,
             color:`${colorArr[randomColor()]}`
         })
+        localStorage.setItem('x', JSON.stringify(hashMap))
         render()
     })
 
