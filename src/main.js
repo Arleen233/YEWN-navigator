@@ -3,9 +3,9 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 
 const hashMap = xObject || [{
-        logo: 'A',
+        logo: 'J',
         logoType: 'text',
-        url: 'https://www.acfun.cn',
+        url: 'https://juejin.im/',
         color:'#ff99cc'
     },
     {

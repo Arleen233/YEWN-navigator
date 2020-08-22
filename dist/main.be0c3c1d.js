@@ -121,9 +121,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'A',
+  logo: 'J',
   logoType: 'text',
-  url: 'https://www.acfun.cn',
+  url: 'https://juejin.im/',
   color: '#ff99cc'
 }, {
   logo: 'B',
@@ -196,4 +196,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.51d6495c.js.map
+//# sourceMappingURL=main.be0c3c1d.js.map
